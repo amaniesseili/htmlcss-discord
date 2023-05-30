@@ -121,14 +121,17 @@ h1, p, h3{
 .study-group-img{
     background-image: url(img/item1.svg);
     background-size: cover;
+    background-size: contain;
 }
 .voice-connected-img{
     background-image: url(img/item2.svg);
     background-size: cover;
+    background-size: contain;
 }
 .graggle-img{
     background-image: url(img/item3.svg);
     background-size: cover;
+    background-size: contain;
 }
 
 
