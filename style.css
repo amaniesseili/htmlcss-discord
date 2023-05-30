@@ -120,17 +120,14 @@ h1, p, h3{
 }
 .study-group-img{
     background-image: url(img/item1.svg);
-    background-size: cover;
     background-size: contain;
 }
 .voice-connected-img{
     background-image: url(img/item2.svg);
-    background-size: cover;
     background-size: contain;
 }
 .graggle-img{
     background-image: url(img/item3.svg);
-    background-size: cover;
     background-size: contain;
 }
 
@@ -168,11 +165,19 @@ h1, p, h3{
 }
 .green-bg-content{
     background-color: green;
-    max-width: 600px;
+    max-width: 800px;
     min-height: 400px;
     margin: auto;
+    text-align: center;
+}
+.green-content-img{
+    width: 800px;
+    height: auto;
 }
 
+.violet-btn{
+    background-color: rgb(173, 94, 238);  
+}
 /* footer */
 
 footer{
