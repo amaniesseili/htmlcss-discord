@@ -58,11 +58,26 @@
     background-color: white;
     padding: .7rem 1rem;
 }
+.black-btn{
+    background-color: black;
+    color: white;
+}
 
 .banner-container{
     background-color: rgb(57, 86, 228);
+    background-image: url(img/jumbo.png);
+    background-repeat: no-repeat;
     min-height: 300px;
     padding-top: 50px;
+    
+}
+header{
+    background-image: url(img/jumbo.png);
+    min-height: 300px;
+    width: 100%;
+    background-size: auto;
+    
+    /* perche l'immagine nn si addata alla misura del headere? */
 }
 
 .banner-content{
@@ -70,6 +85,12 @@
     min-height: 200px;
     width: 600px; 
     margin: auto;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+h1, .decription-hero{
+    padding-bottom: 15px;
 }
 
 /* main/white-bg/section1 */
