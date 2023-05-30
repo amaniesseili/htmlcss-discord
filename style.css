@@ -145,8 +145,8 @@ h1, p, h3{
 }
 .gray-bg-content{
     background-color: rgb(158, 155, 157);
-    min-height: 200px;
-    width: 600px; 
+    min-height: 250px;
+    width: 800px; 
     margin: auto;
 }
 .container-flex-gray{
