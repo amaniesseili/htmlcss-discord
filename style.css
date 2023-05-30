@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-bar{
+    background-color: rgb(121, 245, 245);
+    min-height: 120px;
+}
+
+.container-flex{
+    display: flex;
+
+}
+
+.nav-container{
+    max-width: 900px;
+    margin: auto;
+    padding-top: 25px;
+    
+}
+
+.logo{
+    background-color: orange;
+    height: 70px;
+    width: 200px;
+}
+
+.menu{
+    background-color: rgb(243, 180, 64);
+    height: 70px;
+    /* width: 200px;  se metto flex grow nn serve piu mettere la larghezza? */
+    flex-grow: 1;
+}
+
+.login{
+    background-color: orange;
+    height: 70px;
+    width: 200px;
+}
+
+.banner-container{
+    background-color: rgb(57, 86, 228);
+    min-height: 300px;
+    padding-top: 50px;
+}
+
+.banner-content{
+    background-color: rgb(237, 118, 200);
+    min-height: 200px;
+    width: 600px; 
+    margin: auto;
+}
+
+
+
+.white-bg{
+    background-color:white;
+    min-height: 300px;
+    padding-top: 50px;
+}
+.white-bg-content{
+    background-color: rgb(158, 155, 157);
+    min-height: 200px;
+    width: 600px; 
+    margin: auto;
+}
+.test{
+    background-color: rgb(220, 132, 164);
+    height: 100px;
+    width: 200px;
+}
+.img{
+    background-color: rgb(70, 156, 231);
+    height: 100px;
+    width: 200px;
+}
