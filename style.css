@@ -89,34 +89,49 @@ header{
     padding: 20px 15px;
 }
 
-h1, .decription-hero{
-    padding-bottom: 15px;
+h1, p, h3{
+    padding-bottom: 20px;
 }
 
 /* main/white-bg/section1 */
 
 .white-bg{
     background-color:white;
-    min-height: 300px;
+    min-height: 400px;
     padding-top: 50px;
 }
 .white-bg-content{
     background-color: rgb(158, 155, 157);
     min-height: 200px;
-    width: 600px; 
+    width: 800px; 
     margin: auto;
 }
 .img{
     background-color: rgb(240, 166, 224);
-    height:200px;
-    width: 200px;
+    height:300px;
+    width: 500px;
 }
 .text{
     background-color: rgb(70, 156, 231);
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 100px;
     flex-grow: 1;
+    padding: 25px 70px;
 }
+.study-group-img{
+    background-image: url(img/item1.svg);
+    background-size: cover;
+}
+.voice-connected-img{
+    background-image: url(img/item2.svg);
+    background-size: cover;
+}
+.graggle-img{
+    background-image: url(img/item3.svg);
+    background-size: cover;
+}
+
+
 .container-flex-white{
     display: flex;
 }
@@ -125,7 +140,7 @@ h1, .decription-hero{
 
 .gray-bg{
     background-color:rgb(242, 233, 233);
-    min-height: 300px;
+    min-height: 400px;
     padding-top: 50px;
 }
 .gray-bg-content{
