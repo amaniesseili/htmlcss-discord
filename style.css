@@ -27,9 +27,6 @@
     color: white;
 }
 
-
-
-
 .nav-container{
     max-width: 900px;
     margin: auto;
@@ -75,7 +72,7 @@
     margin: auto;
 }
 
-
+/* main/white-bg/section1 */
 
 .white-bg{
     background-color:white;
@@ -88,13 +85,106 @@
     width: 600px; 
     margin: auto;
 }
-.test{
-    background-color: rgb(220, 132, 164);
-    height: 100px;
+.img{
+    background-color: rgb(240, 166, 224);
+    height:200px;
     width: 200px;
 }
-.img{
+.text{
     background-color: rgb(70, 156, 231);
-    height: 100px;
+    height: 200px;
     width: 200px;
+    flex-grow: 1;
+}
+.container-flex-white{
+    display: flex;
+}
+
+/* main/gray/bg/ section2*/
+
+.gray-bg{
+    background-color:rgb(242, 233, 233);
+    min-height: 300px;
+    padding-top: 50px;
+}
+.gray-bg-content{
+    background-color: rgb(158, 155, 157);
+    min-height: 200px;
+    width: 600px; 
+    margin: auto;
+}
+.container-flex-gray{
+    display: flex;
+}
+
+
+/* copy and past section 1 to create section3 in HTML, SAME CSS  */
+
+/* main/green container/section 4 */
+
+.gray-bg-green-content{
+    background-color:rgb(242, 233, 233);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.green-bg-content{
+    background-color: green;
+    max-width: 600px;
+    min-height: 400px;
+    margin: auto;
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(81, 79, 79);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-content{
+    background-color: rgb(31, 176, 243);
+    max-width: 600px;
+    min-height: 50px;
+    margin: auto;
+}
+.social-media{
+    background-color: rgb(230, 107, 107);
+    min-height: 200px;
+    flex-grow: 1;
+}
+.contact{
+    background-color: aqua;
+    width: 100px;
+}
+
+.light-color{
+    background-color: rgb(93, 208, 208);
+}
+.container-flex{
+    display: flex;
+}
+hr{
+    background-color: aliceblue;
+    height: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logo-footer{
+    background-color: rgb(230, 121, 121);
+    max-height: 30px;
+    width: 50px;
+    
+
+}
+.bottone-footer{
+    background-color: rgb(230, 121, 121);
+    max-height: 30px;
+    width: 70px;
+}
+.container-flex-footer{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center;  perche quando metto questo proprieta spariscono i div*/
 }
