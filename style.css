@@ -5,8 +5,8 @@
 }
 
 .menu-bar{
-    background-color: rgb(121, 245, 245);
-    min-height: 120px;
+    background-color:  rgb(65, 21, 240);
+    min-height: 70px;
 }
 
 .container-flex{
@@ -24,7 +24,7 @@
     text-decoration: none;
     display: inline-block;
     padding: .6rem;
-    color: black;
+    color: white;
 }
 
 
@@ -44,14 +44,14 @@
 }
 
 .menu{
-    background-color: rgb(243, 180, 64);
+    background-color:  rgb(65, 21, 240);
     height: 70px;
     /* width: 200px;  se metto flex grow nn serve piu mettere la larghezza? */
     flex-grow: 1;
 }
 
 .login{
-    background-color: orange;
+    
     height: 40px;
     width: 90px;
 }
