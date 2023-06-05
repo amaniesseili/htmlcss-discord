@@ -66,8 +66,9 @@
 .banner-container{
     background-color: rgb(57, 86, 228);
     background-image: url(img/jumbo.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    min-height: 300px;
+    height: 300px;
     padding-top: 50px;
     
 }
@@ -81,7 +82,7 @@ header{
 }
 
 .banner-content{
-    background-color: rgb(237, 118, 200);
+    
     min-height: 200px;
     width: 600px; 
     margin: auto;
@@ -101,18 +102,18 @@ h1, p, h3{
     padding-top: 50px;
 }
 .white-bg-content{
-    background-color: rgb(158, 155, 157);
+   
     min-height: 200px;
     width: 800px; 
     margin: auto;
 }
 .img{
-    background-color: rgb(240, 166, 224);
+    
     height:300px;
     width: 500px;
 }
 .text{
-    background-color: rgb(70, 156, 231);
+    
     height: 300px;
     width: 100px;
     flex-grow: 1;
@@ -144,7 +145,7 @@ h1, p, h3{
     padding-top: 50px;
 }
 .gray-bg-content{
-    background-color: rgb(158, 155, 157);
+    
     min-height: 250px;
     width: 800px; 
     margin: auto;
@@ -164,7 +165,7 @@ h1, p, h3{
     padding-bottom: 50px;
 }
 .green-bg-content{
-    background-color: green;
+    
     max-width: 800px;
     min-height: 400px;
     margin: auto;
@@ -179,6 +180,7 @@ h1, p, h3{
 
 .violet-btn{
     background-color: rgb(173, 94, 238);  
+    padding: 5px 5px;
 }
 /* footer */
 
@@ -189,7 +191,7 @@ footer{
 }
 
 .footer-content{
-    background-color: rgb(31, 176, 243);
+   
     max-width: 600px;
     min-height: 50px;
     margin: auto;
@@ -218,19 +220,18 @@ hr{
 }
 
 .logo-footer{
-    background-color: rgb(230, 121, 121);
+    background-image:url(img/logo.svg) ;
+    background-size: cover;
     max-height: 30px;
-    width: 50px;
+    width: 100px;
+    
     
 
 }
-.bottone-footer{
-    background-color: rgb(230, 121, 121);
-    max-height: 30px;
-    width: 70px;
-}
+
 .container-flex-footer{
     display: flex;
     justify-content: space-between;
+    
     /* align-items: center;  perche quando metto questo proprieta spariscono i div*/
 }
